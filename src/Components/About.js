@@ -39,7 +39,7 @@ const About = () => {
               <span style={{fontSize:'18px', fontWeight:'500'}}>{detail.name} ( <span style={{color:'#9ee408', fontSize:'14px', fontWeight:'400'}}>{average.average}/10 </span>)</span>
               <div>
                 <span>{detail.airdate} | {detail.runtime} min | Director.</span>
-                <p>Cast: john jacob, hans meir, mohammad ali</p>
+                <p>Cast: john jacob, hans meir, mohammad ali.</p>
               </div>
               <div className="">
                 <p style={{fontSize:'18px'}}>
