@@ -28,7 +28,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-3">
             <img
-              src={dataImage.original}
+              src={dataImage ? dataImage.original : ""}
               style={{ height: "200px", width: "100%" }}
               alt=""
               srcset=""
