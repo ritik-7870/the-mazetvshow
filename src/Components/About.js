@@ -34,7 +34,7 @@ const About = () => {
               srcset=""
             />
           </div>
-          <div className="col-md">
+          <div className="col-md">  
             <div className="">
               <span style={{fontSize:'18px', fontWeight:'500'}}>{detail.name} ( <span style={{color:'#9ee408', fontSize:'14px', fontWeight:'400'}}>{average.average}/10 </span>)</span>
               <div>
